@@ -1,0 +1,39 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "螃蟹公.moc3",
+		"Textures": [
+			"螃蟹公.1024/texture_00.png"
+		],
+		"Physics": "螃蟹公.physics3.json",
+		"DisplayInfo": "螃蟹公.cdi3.json",
+		"Motions": {
+			"Idle": [
+				{
+					"File": "motions/hair.motion3.json"
+				},
+				{
+					"File": "motions/weiqu.motion3.json"
+				},
+				{
+					"File": "motions/confuse.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	]
+}
